@@ -15,7 +15,7 @@
                     </a>
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="#">Compose message</a>
+                            <a class="nav-link" href="compose.blade.php">Compose message</a>
                             <a class="nav-link" href="#">Inbox</a>
                         </nav>
                     </div>
