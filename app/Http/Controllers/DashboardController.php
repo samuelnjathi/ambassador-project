@@ -11,6 +11,6 @@ use App\Models\User;
 class DashboardController extends Controller
 {
     public function redirect(){
-    return view('dashboard.index');
+        return view('dashboard.index');
 }
 }

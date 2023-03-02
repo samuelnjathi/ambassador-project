@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostsController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,8 +20,11 @@ use Illuminate\Support\Facades\Route;
 //});
 
 
- Route::get('/', [App\Http\Controllers\PagesController::class, 'home'])->name('home');
- Route::get('/events', [App\Http\Controllers\PagesController::class, 'events'])->name('events.us');
+Route::get('/', [App\Http\Controllers\PagesController::class, 'home'])->name('home');
+Route::get('/events', [App\Http\Controllers\PagesController::class, 'events'])->name('events.us');
+
+//Resource for Postse
+Route::resource('/blog', PostsController::class);
 
 
 Auth::routes();
@@ -28,3 +33,5 @@ Auth::routes();
 
 //Path to Admin Dashboard or user dashboard
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'redirect'])->name('dashboard');
+
+
