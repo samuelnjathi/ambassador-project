@@ -14,6 +14,7 @@
                                 <h1 class="heading">Chatbox</h1>
                             </div>
                             <div class="card-body">
+                                <h3 class="font-light mb-0"><i class="ti-email mr-2"></i>Compose new message</h3><br>
                             <div class="form-group">
                                 <label for="receiver">To:</label>
                                 <input type="receiver" class="form-control" id="subject" placeholder="send to" name="receiver">

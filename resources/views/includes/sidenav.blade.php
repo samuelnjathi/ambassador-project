@@ -16,7 +16,7 @@
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
                             <a class="nav-link" href="{{ route('blog.create') }}">Compose message</a>
-                            <a class="nav-link" href="#">Inbox</a>
+                            <a class="nav-link" href="{{ route('blog.index') }}">Inbox</a>
                             <a class="nav-link" href="#">Sent</a>
                         </nav>
                     </div>

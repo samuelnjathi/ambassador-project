@@ -11706,7 +11706,7 @@ body {
 }
 .nameborder{
 	padding: 2px;
-	
+
 	margin-top: 15px;
 }
 
@@ -11719,3 +11719,7 @@ body {
     width: 35px;
     border-radius: 50%;
     margin-right: 12px;
+}
+.link {
+    text-decoration: none;
+}
