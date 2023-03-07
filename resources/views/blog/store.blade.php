@@ -46,33 +46,31 @@
                                     <table class="table email-table no-wrap table-hover v-middle mb-0 font-14">
                                     <tbody>
 
-                                    <tr>
+                                    <tr class="">
 
                                     <td class="pl-3">
                                     <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="cst1" />
-                                    <label class="custom-control-label" for="cst1">&nbsp;</label>
+                                    <input type="checkbox" class="custom-control-input" id="cst6" />
+                                    <label class="custom-control-label" for="cst6">&nbsp;</label>
                                     </div>
                                     </td>
 
                                     <td><i class="fa fa-star text-warning"></i></td>
+
                                     <td>
-                                    <span class="mb-0 text-muted">Hritik Roshan</span>
+                                    <span class="mb-0 text-muted font-light">Akshay Kumar</span>
                                     </td>
 
                                     <td>
-                                    <a class="link" href="javascript: void(0)">
-
-                                    <span class="text-dark">Lorem ipsum perspiciatis-</span>
+                                     <a class="link" href="javascript: void(0)">
+                                    <span class="font-light text-dark">Lorem ipsum perspiciatis - unde</span>
                                     </a>
                                     </td>
 
                                     <td><i class="fa fa-paperclip text-muted"></i></td>
 
-                                    <td class="text-muted">May 13</td>
+                                    <td class="text-muted font-light">Mar 09</td>
                                     </tr>
-
-
                                     </tbody>
                                     </table>
 

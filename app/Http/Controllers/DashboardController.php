@@ -12,5 +12,9 @@ class DashboardController extends Controller
 {
     public function redirect(){
         return view('dashboard.index');
-}
+    }
+    public function events(){
+
+        return view('dashboard.events');
+    }
 }

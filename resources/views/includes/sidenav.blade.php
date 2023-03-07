@@ -17,10 +17,10 @@
                         <nav class="sb-sidenav-menu-nested nav">
                             <a class="nav-link" href="{{ route('blog.create') }}">Compose message</a>
                             <a class="nav-link" href="{{ route('blog.index') }}">Inbox</a>
-                            <a class="nav-link" href="#">Sent</a>
+                            <a class="nav-link" href="{{ route('blog.store') }}">Sent</a>
                         </nav>
                     </div>
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="{{route('events')}}">
                         <div class="sb-nav-link-icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
                         Events
                     </a>

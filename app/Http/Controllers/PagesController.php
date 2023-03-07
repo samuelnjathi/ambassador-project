@@ -10,8 +10,5 @@ class PagesController extends Controller
 
         return view('pages.home');
     }
-    public function events(){
 
-        return view('pages.events');
-    }
 }

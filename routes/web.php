@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Auth;
 
 
 Route::get('/', [App\Http\Controllers\PagesController::class, 'home'])->name('home');
-Route::get('/events', [App\Http\Controllers\PagesController::class, 'events'])->name('events.us');
+
 
 //Resource for Postse
 Route::resource('/blog', PostsController::class);
@@ -33,5 +33,6 @@ Auth::routes();
 
 //Path to Admin Dashboard or user dashboard
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'redirect'])->name('dashboard');
+Route::get('/events', [App\Http\Controllers\DashboardController::class, 'events'])->name('events');
 
 
