@@ -12,7 +12,6 @@
     <h1 style="color: rgb(66, 135,216); text-align: center;font-family: Verdana, Geneva, sans-serif; font-size: 150%;">AMBASSADORS</h1>
     <a href="https://www.swahilipothub.co.ke/"><button type="button">Home</button></a><br><br>
     <a href=""><button type="button">About</button></a><br><br>
-    <a href="{{ route('events') }}"><button type="button">Events</button></a><br><br>
     <a href="{{ route('login') }}"><button type="button4">Admin</button></a><br>
 
 

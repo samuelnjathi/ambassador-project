@@ -13,8 +13,18 @@
                                       <h3>My Dashboard</h3>
                                     </div>
                                     <div class="card-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+									<p>Welcome to Ambassadors Program created exclusively for the members of Swahili Pot Hub who will
+                                        be serving as ambassadors. As an ambassador for our organization, you play a critical role in
+                                        representing our values, mission, and vision to the wider community. This website is designed
+                                        to provide you with the information and networks that you need to excel in your role as an ambassador.
+                                    </p>
+                                    <h4 style="text-align: center">Role of an ambassador</h4>
+                                    <p>
+                                        As an ambassador, you will be a critical link between our organization and the wider community.
+                                        You will help to raise awareness about our mission and vision and invite more Youth across the
+                                        country to benefit from our projects. You will also be responsible for answering questions about
+                                        our organization, and help build a positive image of the hub in the public.
+                                    </p>
 									</div>
                                 </div>
                             </div>

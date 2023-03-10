@@ -11728,3 +11728,6 @@ body {
     margin-top: 10px;
 
 }
+.time {
+    color: var(--bs-red)
+}
