@@ -11731,3 +11731,31 @@ body {
 .time {
     color: var(--bs-red)
 }
+
+.card-team {
+    overflow: visible;
+    margin-top: 3rem;
+  }
+  .card-team .card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .card-team .card-body .card-team-img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    margin-top: -4.5rem;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(33, 40, 50, 0.2);
+  }
+  .card-team .card-body .card-team-name {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  .card-team .card-body .card-team-position {
+    font-style: italic;
+    color: #a7aeb8;
+    font-size: 0.8rem;
+  }

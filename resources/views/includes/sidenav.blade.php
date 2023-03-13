@@ -24,6 +24,10 @@
                         <div class="sb-nav-link-icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
                         Events
                     </a>
+                    <a class="nav-link" href="{{route('members')}}">
+                        <div class="sb-nav-link-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+                        Members
+                    </a>
 
                 </div>
             </div>

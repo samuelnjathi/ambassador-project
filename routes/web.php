@@ -34,5 +34,6 @@ Auth::routes();
 //Path to Admin Dashboard or user dashboard
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'redirect'])->name('dashboard');
 Route::get('/events', [App\Http\Controllers\DashboardController::class, 'events'])->name('events');
+Route::get('/members', [App\Http\Controllers\DashboardController::class, 'members'])->name('members');
 
 
