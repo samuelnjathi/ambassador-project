@@ -9,20 +9,25 @@
                         </div>
                     <div class="row gx-5">
                         <div class="col-md-6 col-xl-4 mb-5">
-                            <div class="card card-team">
+                            <div class="card card-team" style="width:250px">
                                 <div class="card-body">
                                   <img
                                     class="card-team-img mb-3"
-                                    src="{{asset('Assets/images/event3.jpg')}}"
+                                    src="{{asset('Assets/images/betty.jpeg')}}"
                                     alt="..."
                                   />
-                                  <div class="card-team-name">Valerie Luna</div>
+                                  <div class="card-team-name">Betty Mutunga</div>
                                   <div class="card-team-position mb-3">
                                     Managing Partner
                                   </div>
                                   <p class="small mb-0">
-                                    Graduate Year: 2020
-                                    Job Status: Employee Kenya Power
+                                    <b>Class of:</b> 2023
+                                  </p>
+                                  <p class="small mb-0">
+                                    <b>University:</b>
+                                  </p>
+                                  <p class="small mb-0">
+                                  Egerton University
                                   </p>
                                 </div>
                                 <div class="card-footer text-center">

@@ -44,6 +44,7 @@
 
                                     <div class="table-responsive">
                                     <table class="table email-table no-wrap table-hover v-middle mb-0 font-14">
+                                        @foreach ($posts as $post )
                                     <tbody>
 
                                     <tr>
@@ -57,23 +58,26 @@
 
                                     <td><i class="fa fa-star text-warning"></i></td>
                                     <td>
-                                    <span class="mb-0 text-muted">Hritik Roshan</span>
+                                    <span class="mb-0 text-muted">{{ $post->user->name ?? 'None' }}</span>
                                     </td>
 
                                     <td>
                                     <a class="link" href="javascript: void(0)">
 
-                                    <span class="text-dark">Lorem ipsum perspiciatis-</span>
+                                    <span class="text-dark">{{ substr(strip_tags($post->body), 0, 150) }}
+                                        {{ strlen(strip_tags($post->body)) > 50 ? "......" : "" }}</span>
                                     </a>
                                     </td>
 
                                     <td><i class="fa fa-paperclip text-muted"></i></td>
 
-                                    <td class="text-muted">May 13</td>
+                                    <td class="text-muted">{{$post->created_at->diffForHumans()}}</td>
                                     </tr>
 
 
+
                                     </tbody>
+                                    @endforeach
                                     </table>
 
 </main>

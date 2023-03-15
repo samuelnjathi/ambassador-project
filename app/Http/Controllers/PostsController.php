@@ -16,7 +16,10 @@ class PostsController extends Controller
      */
     public function index()
     {
-        return view("blog.index");
+         // Display all posts
+         $posts= Post::all();
+         return view('blog.index', compact('posts'));
+
         return view("blog.store");
     }
 
@@ -38,7 +41,34 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+              // Validate  Inputs
+
+              $request->validate([
+
+                'uname' => "required",
+                'subject' => "required",
+                'body' => "required"
+
+
+            ]);
+          // Request for Inputs
+                 $uname = $request->input('uname');
+                 $subject = $request->input('subject');
+                 $slug = Str::slug($subject,'-');
+                 $body = $request->input('body');
+
+
+
+            //Post and Save Inputs
+
+            $post = new Post();
+            $post->uname = $uname;
+            $post->slug = $slug;
+            $post->subject = $subject;
+            $post->body = $body;
+            $post->save();
+
+            return redirect()->back()->with('status', 'Message sent Successfully');
     }
 
     /**

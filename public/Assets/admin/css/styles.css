@@ -11735,6 +11735,7 @@ body {
 .card-team {
     overflow: visible;
     margin-top: 3rem;
+    padding: 10px;
   }
   .card-team .card-body {
     display: flex;
@@ -11744,8 +11745,8 @@ body {
     text-align: center;
   }
   .card-team .card-body .card-team-img {
-    height: 10rem;
-    width: 10rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 100%;
     margin-top: -4.5rem;
     box-shadow: 0 0.125rem 0.25rem 0 rgba(33, 40, 50, 0.2);

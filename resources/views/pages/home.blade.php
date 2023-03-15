@@ -7,7 +7,7 @@
     <title>HOME PAGE</title>
     <link rel="stylesheet" href="{{asset("Assets/css/home.css")}}">
 </head>
-<body style="background-image: url({{asset("Assets/images/background.jpg")}})">
+<body style="background-image: url({{asset("Assets/images/background.jpg")}}); background-size: 100%">
     <img src="Assets/images/img.html.png" alt="SPH" style="height: 123; width: 1036;">
     <h1 style="color: rgb(66, 135,216); text-align: center;font-family: Verdana, Geneva, sans-serif; font-size: 150%;">AMBASSADORS</h1>
     <a href="https://www.swahilipothub.co.ke/"><button type="button">Home</button></a><br><br>
